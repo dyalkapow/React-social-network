@@ -1,0 +1,41 @@
+.profiler {
+   grid-area: profile;
+}
+
+.banner {
+   width: 100%;
+}
+
+.banner > img {
+   display: block;
+   min-width: 100%;
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.user {
+   display: flex;
+   margin-top: 10px;
+}
+
+.user-avatar {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+   border: 1px solid #ccc;
+}
+
+.user-avatar > img {
+   display: block;
+   max-width: 100%;
+   min-height: 100%;
+}
+
+.user-description {
+   margin-left: 50px;
+}
+
+.user-name {
+   margin-bottom: 20px;
+}
